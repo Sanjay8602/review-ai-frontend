@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+.npm/
+.eslintcache
+.yarn-integrity
+.cache/
+.parcel-cache/
+
+# Distribution directories
+build/
+dist/
+tmp/
+out/
+
+# Optional editor or OS files
+.DS_Store           # macOS files
+.idea/              # JetBrains IDEs
+*.iml               # JetBrains IDEs
+.vscode/            # VS Code
+*.swp               # Vim swap files
+*.swo               # Vim swap files
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
